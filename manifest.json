@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "42 Correction",
+  "version": "1.0",
+  "description": "Description de ton extension",
+  "permissions": ["activeTab"],
+  "content_scripts": [{
+    "matches": ["https://projects.intra.42.fr/projects/*/slots*"],
+    "js": ["script.js"]
+  }],
+  "icons": {
+    "16": "a.png",
+    "48": "b.png",
+    "128": "c.png"
+  }
+}
